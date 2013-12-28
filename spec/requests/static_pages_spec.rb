@@ -1,6 +1,5 @@
 require 'spec_helper'
 
-
 describe "StaticPages" do
 
  	let(:base_title) { "Ruby on Rails Tutorial Sample App" }
@@ -49,5 +48,6 @@ describe "StaticPages" do
       		expect(page).to have_title("#{base_title} | About Us")
     	end
 	end
+
 
 end
